@@ -8,9 +8,10 @@ This project demonstrates how to deploy a simple Node.js web application using D
 
 Before you begin, ensure you have the following installed:
 
-- **Docker**: To build and manage Docker images. [Install Docker](https://www.docker.com/get-started).
-- **kubectl**: The command-line tool for interacting with Kubernetes. [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/).
-- **(Optional) Helm**: A package manager for Kubernetes (if you plan to use it).
+- **Node.js**: [Download Node.js](https://nodejs.org/)
+- **Docker**: [Install Docker](https://www.docker.com/get-started)
+- **kubectl**: The command-line tool for interacting with Kubernetes. [Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- **(Optional) Minikube**: For local Kubernetes development. [Install Minikube](https://minikube.sigs.k8s.io/docs/start/)
 
 ### Setting Up Your Environment
 
@@ -22,12 +23,3 @@ Before you begin, ensure you have the following installed:
    - **Docker Desktop**: Enable Kubernetes in Docker Desktop.
 
 3. **Docker Hub Account**: (Optional) Create an account on [Docker Hub](https://hub.docker.com/) if you plan to push your Docker images there.
-
-## Building the Docker Image
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
-   ```
